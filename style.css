@@ -1,13 +1,46 @@
-* {
-font-family: 'EB Garamond', serif;
-}
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:700|Raleway');
 
-p {
-  font-size: 20px;
-  /* text-indent: 6%; */
+html, body {
+  margin: 0;
+  padding:0;
+  height: 100%;
+  width: 100%;
 }
 
 img {
-  width: 280px;
-  height: 240px;
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 200%;
+  font-weight: 700;
+  color: #2c2c2c;
+  text-align: center;
+  text-decoration: underline;
+}
+
+p {
+  font-family: 'Raleway', serif;
+  color: #2c2c2c;
+  font-size: 140%;
+  line-height: 180%;
+  text-align: justify;
+}
+/*
+.info-section {
+  text-indent: 6%;
+} */
+
+.intro {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background-image: url(https://static.pexels.com/photos/248159/pexels-photo-248159.jpeg);
+  background-size: cover;
+  display: table;
 }
