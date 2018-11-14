@@ -111,6 +111,7 @@ nav ul li a:hover {
 nav ul, nav:active ul{
   display: none;
   padding: 8px 0;
+  left: 45px;
   width: 20%;
   z-index: 1000;
 }
@@ -127,8 +128,8 @@ nav:hover ul {
 }
 
 #menu-icon{
-  width: 30px;
-  height: 26px;
+  width: 40px;
+  height: 40px;
   background: url('img/nav-icon.png') center;
   display: inline-block;
   margin: 50px 0 0 50px;
