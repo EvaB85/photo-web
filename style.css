@@ -4,8 +4,10 @@ font-family: 'EB Garamond', serif;
 
 p {
   font-size: 20px;
+  /* text-indent: 6%; */
 }
 
-.about-me {
-  text-indent: 6%;
+img {
+  width: 280px;
+  height: 240px;
 }
